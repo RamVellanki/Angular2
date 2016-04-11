@@ -1,0 +1,39 @@
+{
+  "name": "ng2input",
+  "version": "0.0.0",
+  "description": "Basic ng2 app to test input and binding functionality",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "start": "concurrently \"npm run tsc\" \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.7",
+    "systemjs": "0.19.22",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.5.15"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "concurrently": "^2.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-typescript": "^2.12.1",
+    "lite-server": "^2.1.0",
+    "merge-stream": "^1.0.0",
+    "nodemon": "^1.9.1",
+    "run-sequence": "^1.1.5",
+    "typescript": "^1.8.2",
+    "typings": "^0.6.9"
+  },
+  "author": "RAMV",
+  "license": "MIT"
+}

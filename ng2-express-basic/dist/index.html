@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Angular 2 QuickStart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="styles.css">-->
+
+    <script src="scripts/systemjs/dist/system.src.js"></script>
+    <script src="scripts/systemjs/dist/system-polyfills.js"></script>
+    <script src="scripts/es6-shim/es6-shim.min.js"></script>
+    <script src="scripts/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+
+    <script src="scripts/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="scripts/rxjs/bundles/Rx.js"></script>
+    <script src="scripts/angular2/bundles/angular2.dev.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+        System.config({
+                packages: {
+           
+        'components/*': {
+          format: 'register',
+          defaultExtension: 'js'
+        },
+        'directives': {
+          format: 'register',
+          defaultExtension: 'js'
+        },
+        'core': {
+          format: 'register',
+          defaultExtension: 'js'
+        },
+      },
+            paths: {
+            'angular2/*': 'scripts/angular2/*',
+            'rxjs/*' : 'scripts/rxjs/*'                  
+            },
+            map:{
+                'src':'dist'
+            },
+            defaultJSExtensions: true
+      })
+      System.import('/main.js')
+            .then(null, console.error.bind(console));
+    </script>
+</head>
+
+<!-- 3. Display the application -->
+
+<body>
+    <App>Loading...</App>
+</body>
+
+</html>

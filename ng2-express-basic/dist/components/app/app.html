@@ -1,0 +1,21 @@
+<form>
+    <h3>Two way binding</h3>
+    <label>Enter your name</label>
+    <input [(ngModel)]="name" type="text" name="txtInput">
+</form>
+<form>
+    <h3>One way binding</h3>
+    <p>Enter name and take enter, the $event gets passed to the component the value gets printed</p>
+    <label>Enter your name</label>
+    <input #namex type="text" name="txtInputx" (keyup.enter)="onEnter($event)">
+
+    <button type="button" (click)='onClick()'>Click Me</button>
+</form>
+
+<div>
+    (Two way binding) Your name {{name}}
+</div>
+
+<div>
+    (One way binding) Your name {{namex.value}}
+</div>
