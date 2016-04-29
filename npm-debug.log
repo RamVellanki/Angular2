@@ -1,0 +1,80 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\j1009063\\.chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   '@angular2-material/core' ]
+2 info using npm@1.4.9
+3 info using node@v5.6.0
+4 verbose cache add [ '@angular2-material/core', null ]
+5 verbose cache add name=undefined spec="@angular2-material/core" args=["@angular2-material/core",null]
+6 verbose parsed url Url {
+6 verbose parsed url   protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '@angular2-material/core',
+6 verbose parsed url   path: '@angular2-material/core',
+6 verbose parsed url   href: '@angular2-material/core' }
+7 verbose cache add name="" spec="angular2-material/core" args=["","angular2-material/core"]
+8 verbose parsed url Url {
+8 verbose parsed url   protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'angular2-material/core',
+8 verbose parsed url   path: 'angular2-material/core',
+8 verbose parsed url   href: 'angular2-material/core' }
+9 silly lockFile 9bbae8ff-angular2-material-core angular2-material/core
+10 verbose lock angular2-material/core C:\Users\j1009063\.npm\9bbae8ff-angular2-material-core.lock
+11 info maybeGithub Attempting angular2-material/core from git://github.com/angular2-material/core
+12 silly lockFile 1b7654d0-ithub-com-angular2-material-core git://github.com/angular2-material/core
+13 verbose lock git://github.com/angular2-material/core C:\Users\j1009063\.npm\1b7654d0-ithub-com-angular2-material-core.lock
+14 verbose addRemoteGit [ 'git://github.com/angular2-material/core', 'master' ]
+15 warn `git config --get remote.origin.url` returned wrong result (git://github.com/angular2-material/core)
+16 verbose git clone git://github.com/angular2-material/core Cloning into bare repository 'C:\Users\j1009063\.npm\_git-remotes\git-github-com-angular2-material-core-1b7654d0'...
+16 verbose git clone git://github.com/angular2-material/core fatal: remote error:
+16 verbose git clone git://github.com/angular2-material/core   Repository not found.
+17 silly lockFile 1b7654d0-ithub-com-angular2-material-core git://github.com/angular2-material/core
+18 silly lockFile 1b7654d0-ithub-com-angular2-material-core git://github.com/angular2-material/core
+19 info maybeGithub Attempting angular2-material/core from git+ssh://git@github.com:angular2-material/core
+20 silly lockFile bf428d36-ithub-com-angular2-material-core git@github.com:angular2-material/core
+21 verbose lock git@github.com:angular2-material/core C:\Users\j1009063\.npm\bf428d36-ithub-com-angular2-material-core.lock
+22 verbose addRemoteGit [ 'git@github.com:angular2-material/core', 'master' ]
+23 warn `git config --get remote.origin.url` returned wrong result (git@github.com:angular2-material/core)
+24 error git clone git@github.com:angular2-material/core Cloning into bare repository 'C:\Users\j1009063\.npm\_git-remotes\git-github-com-angular2-material-core-bf428d36'...
+24 error git clone git@github.com:angular2-material/core Permission denied (publickey).
+24 error git clone git@github.com:angular2-material/core fatal: Could not read from remote repository.
+24 error git clone git@github.com:angular2-material/core
+24 error git clone git@github.com:angular2-material/core Please make sure you have the correct access rights
+24 error git clone git@github.com:angular2-material/core and the repository exists.
+25 silly lockFile bf428d36-ithub-com-angular2-material-core git@github.com:angular2-material/core
+26 silly lockFile bf428d36-ithub-com-angular2-material-core git@github.com:angular2-material/core
+27 silly lockFile 9bbae8ff-angular2-material-core angular2-material/core
+28 silly lockFile 9bbae8ff-angular2-material-core angular2-material/core
+29 error addLocal Could not install angular2-material/core
+30 error Error: ENOENT: no such file or directory, stat 'E:\Chandra\Coding\ng2\Angular2\angular2-material\core'
+30 error     at Error (native)
+31 error If you need help, you may report this *entire* log,
+31 error including the npm and node versions, at:
+31 error     <http://github.com/npm/npm/issues>
+32 error System Windows_NT 6.3.9600
+33 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\j1009063\\.chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "@angular2-material/core"
+34 error cwd E:\Chandra\Coding\ng2\Angular2
+35 error node -v v5.6.0
+36 error npm -v 1.4.9
+37 error path E:\Chandra\Coding\ng2\Angular2\angular2-material\core
+38 error syscall stat
+39 error code ENOENT
+40 error errno -4058
+41 verbose exit [ -4058, true ]
